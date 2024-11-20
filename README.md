@@ -54,8 +54,8 @@ Projede, aşağıdaki Python kütüphaneleri kullanılmıştır:
 
 COVID-19 vaka sayılarındaki artışları analiz etmek, sağlık bakanlıkları ve hastane yöneticileri için kritik öneme sahiptir. Bu verilerle, sağlık hizmetlerinin ne kadar yoğun olduğunu, mevcut kaynakların nasıl yönetilmesi gerektiğini ve gelecekteki kaynak ihtiyaçlarını tahmin etmek mümkündür. Örneğin:
 
-- **Sağlık Bakanlıkları**: Verileri kullanarak vaka artış hızlarını takip edebilir ve sağlık politikalarını buna göre oluşturabilir.
-- **Hastane Yöneticileri**: Vaka sayısındaki artışı izleyerek yatak kapasitesini planlayabilir ve kaynak ihtiyaçlarını tahmin edebilir.
+- **Sağlık Bakanlıkları**: Verileri kullanarak vaka eğilimlerini takip edebilir, sağlık politikalarını bu verilere dayanarak geliştirebilir.
+- **Hastane Yöneticileri**: Vaka sayısındaki artışı izleyerek yatak kapasitesini planlayabilir, sağlık kaynaklarının dağılımını yönetebilir ve gelecekteki kaynak ihtiyaçlarını tahmin edebilir.
 
 ### **Makine Öğrenimi Modelleri Önerileri 🤖**
 
@@ -65,12 +65,12 @@ Bu projede, COVID-19 vaka sayılarının gelecekteki artışını tahmin etmek i
    - **Neden ARIMA?** Vaka sayılarındaki zaman bazlı değişimleri analiz etmek için uygundur. Gelecekteki vaka artış oranlarını tahmin etmek amacıyla kullanılabilir.
 
 2. **Regresyon Modelleri (Linear Regression, Random Forest Regressor)**  
-   - **Neden Regresyon Modelleri?** Vaka sayısı, ölüm oranı ve iyileşen oranı gibi değişkenlerin arasındaki ilişkileri tahmin etmek için güçlü bir yöntemdir.
+   - **Neden Regresyon Modelleri?** Vaka sayısı, ölüm oranı ve iyileşen oranı gibi sağlık metriklerinin ilişkilerini analiz etmek için güçlü bir tahmin modelidir.
 
 3. **Derin Öğrenme Yöntemleri (LSTM - Long Short-Term Memory)**  
    - **Neden LSTM?** Zaman serisi veri analizi için çok güçlü bir derin öğrenme modelidir. Uzun dönemli bağımlılıkları öğrenebilir ve vaka artış trendlerini daha doğru tahmin edebilir.
 
 ### **Projenin Gelecekteki Kullanımı 🔮**
 
-Bu analizlerin, sağlık sektöründe ve hükümet politikalarında kullanılabilecek büyük bir potansiyeli bulunmaktadır. Özellikle, ARIMA veya LSTM modelleri ile vaka artışlarını tahmin ederek bölgelerdeki sağlık hizmetleri planlanabilir. Ayrıca, regresyon modelleri ile risk altındaki bölgeler belirlenebilir ve bu sayede müdahale stratejileri geliştirilebilir.
+Bu analizlerin sağlık sektörü ve hükümet politikaları için büyük bir potansiyel taşıdığı söylenebilir. Özellikle ARIMA ve LSTM modelleri, vaka artışlarını tahmin ederek sağlık hizmetlerinin önceden planlanmasına olanak tanıyabilir. Ayrıca, regresyon modelleri ile risk altındaki bölgeler tespit edilip, bu bölgelerdeki sağlık hizmetleri daha hedeflenmiş ve etkili bir şekilde yönlendirilebilir.
 
