@@ -74,3 +74,4 @@ Bu projede, COVID-19 vaka sayılarının gelecekteki artışını tahmin etmek i
 
 Bu analizlerin sağlık sektörü ve hükümet politikaları için büyük bir potansiyel taşıdığı söylenebilir. Özellikle ARIMA ve LSTM modelleri, vaka artışlarını tahmin ederek sağlık hizmetlerinin önceden planlanmasına olanak tanıyabilir. Ayrıca, regresyon modelleri ile risk altındaki bölgeler tespit edilip, bu bölgelerdeki sağlık hizmetleri daha hedeflenmiş ve etkili bir şekilde yönlendirilebilir.
 
+Kaggle Linki: https://www.kaggle.com/code/bilgeesinakbaba/corona-virus-dataset-analysis
